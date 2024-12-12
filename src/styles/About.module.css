@@ -1,0 +1,33 @@
+.about {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 2rem 1rem;
+  border-radius: 12px;
+}
+
+.about h2 {
+  font-size: 3rem;
+  color: #282c34;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.about h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  margin: 0.5rem auto;
+  border-radius: 2px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
